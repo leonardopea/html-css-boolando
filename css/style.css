@@ -7,36 +7,75 @@
 /* nav */
 
 .row_nav{
-    height: 60px;
-    background-color: coral;
+    background-color: rgb(249, 108, 56);
     width: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    color: white;
+    box-shadow: 2px black;
+    border-bottom: 2px;
 }
+.col_nav{
+    width: calc(100% / 3 - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.col1_nav{
+    padding-left: 135px;
+}
+
+#logo{
+    width: 25%;
+    
+}
+
+/* nav items */
+
+.row_items{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    
+    
+}
+
 
 /* main */
 
 main{
     width: 70%;
     margin: auto;
+   
     
 
 }
 
 .row_main{
     display: flex;
-    justify-content: center;
-    height:400px;
-    background-color: aqua;
+    height: 800px;
+    flex-wrap: wrap;
     
 
 }
 
 .col_main{
-    width: calc(100% - 20px);
+    width: calc(100% / 3 - 20px);
     border: 2px dashed black;
-    margin-right: 10px;
-    margin-top: 40px;
+    margin:10px;
+    margin-top: 50px;
 
+}
+
+
+/* footer */
+
+.row_foot{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: black;
+    color:white;
 }
