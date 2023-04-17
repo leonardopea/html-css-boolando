@@ -12,8 +12,7 @@
     display: flex;
     align-items: center;
     color: white;
-    box-shadow: 2px black;
-    border-bottom: 2px;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.533);
 }
 .col_nav{
     width: calc(100% / 3 - 20px);
@@ -48,9 +47,6 @@
 main{
     width: 70%;
     margin: auto;
-   
-    
-
 }
 
 .row_main{
@@ -63,12 +59,59 @@ main{
 
 .col_main{
     width: calc(100% / 3 - 20px);
-    border: 2px dashed black;
     margin:10px;
     margin-top: 50px;
+    position: relative;
 
 }
 
+img{
+    width: 100%;
+}
+strong{
+    display: block;
+}
+
+.marchio{
+    font-size: 11px;
+}
+.sconto{
+    color: red;
+    font-size: 12px;
+    font-weight: 800;
+}
+.prezzo{
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.redbox{
+    background-color: red;
+    left:0;
+ 
+}
+.greenbox{
+    background-color: green;
+    left:43px;
+    
+}
+.box{
+    display: inline-block;
+    color: white;
+    padding: 2px 7px;
+    position: absolute;
+    top: 440px;
+    font-size: 12px;
+    font-weight: 800;
+
+}
+.fa-heart{
+    position: absolute;
+    top: 5px;
+    right:0;
+    background-color: white;
+    padding:10px;
+}
 
 /* footer */
 
@@ -78,4 +121,5 @@ main{
     height: 200px;
     background-color: black;
     color:white;
+    margin-top: 450px;
 }
