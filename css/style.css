@@ -49,9 +49,9 @@ nav{
 /* main */
 
 main{
-    width: 70%;
+    width: 100%;
     margin: auto;
-    margin-bottom: 450px;
+    margin-bottom: 550px;
 }
 
 .row_main{
@@ -110,7 +110,7 @@ strong{
     color: white;
     padding: 2px 7px;
     position: absolute;
-    top: 440px;
+    top: 468px;
     font-size: 12px;
     font-weight: 800;
 
@@ -123,6 +123,9 @@ strong{
     padding:10px;
 }
 
+.heart:hover{
+    color: red;
+}
 /* footer */
 
 footer{
@@ -184,4 +187,19 @@ a{
 
 .linea{
     background-color: black;
+}
+
+/* hover img */
+.second_img{
+    display: none;
+}
+.first_img{
+    display: block;
+}
+.col_main:hover .first_img{
+    display: none;
+}
+
+.col_main:hover .second_img{
+    display: block;
 }
