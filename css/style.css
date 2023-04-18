@@ -4,38 +4,42 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
 /* nav */
 
+nav{
+    background-color: rgb(255, 157, 0);
+    box-shadow: 1px 1px 10px black;
+
+}
 .row_nav{
-    background-color: rgb(249, 108, 56);
     width: 100%;
     display: flex;
     align-items: center;
     color: white;
-    box-shadow: 0 1px rgba(0, 0, 0, 0.533);
 }
 .col_nav{
     width: calc(100% / 3 - 20px);
     margin: 10px auto;
     padding: 10px;
-    text-align: center;
     font-weight: 800;
 }
 
-.col1_nav{
-    padding-left: 135px;
-}
 
 #logo{
-    width: 25%;
+    width: 40%;
     
 }
+
 
 /* nav items */
 
 .row_items{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 7px;
     
     
@@ -47,6 +51,7 @@
 main{
     width: 70%;
     margin: auto;
+    margin-bottom: 450px;
 }
 
 .row_main{
@@ -95,6 +100,11 @@ strong{
     left:43px;
     
 }
+.greenbox2{
+    background-color: green;
+    left:0;
+    
+}
 .box{
     display: inline-block;
     color: white;
@@ -105,7 +115,7 @@ strong{
     font-weight: 800;
 
 }
-.fa-heart{
+.heart{
     position: absolute;
     top: 5px;
     right:0;
@@ -115,11 +125,63 @@ strong{
 
 /* footer */
 
+footer{
+    background-color: black;
+}
+
 .row_foot{
     display: flex;
-    justify-content: space-between;
-    height: 200px;
-    background-color: black;
     color:white;
-    margin-top: 450px;
+    
+}
+
+.col_foot{
+    width: calc(100% / 2);
+}
+
+a{
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.booleando{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.info2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.loghi{
+    display: flex;
+    gap: 7px;
+    justify-content: flex-end;
+    margin-top: 5px;
+
+}
+
+
+
+/* linea */
+
+.hr{
+    color: white;
+    padding-bottom: 10px;
+    
+}
+
+.linea{
+    background-color: black;
 }
