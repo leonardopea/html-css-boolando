@@ -28,6 +28,10 @@ nav{
     font-weight: 800;
 }
 
+.col2_nav{
+    text-align: right;
+    padding-right: 40px;
+}
 
 #logo{
     width: 40%;
